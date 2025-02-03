@@ -1,6 +1,6 @@
-import { Header } from "@/components/header"
-import { OnboardingForm } from "@/components/onboarding-form"
-import { FloatingBubble } from "@/components/floating-bubble"
+import { Header } from "./components/header"
+import { OnboardingForm } from "./components/onboarding-form"
+import { FloatingBubble } from "./components/floating-bubble"
 
 export default function Home() {
   return (

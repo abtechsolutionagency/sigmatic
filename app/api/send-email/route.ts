@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server"
-import { connectToDatabase } from "@/app/lib/mongodb"
-import FormDataModel from "@/app/models/FormData"
+import { connectToDatabase } from "../../lib/mongodb"
+import FormDataModel from "../../models/FormData"
 import nodemailer from "nodemailer"
 
 export async function POST(request: NextRequest) {

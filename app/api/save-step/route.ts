@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server"
-import FormDataModel from "@/models/FormData"
+import FormDataModel from "../../models/FormData"
 import { connectToDatabase } from "../../lib/mongodb"
 
 export async function POST(request: NextRequest) {
