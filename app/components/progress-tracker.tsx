@@ -1,4 +1,4 @@
-import { Progress } from "@/app/components/ui/progress"
+import { Progress } from "@/components/ui/progress"
 interface Step {
   status: "completed" | "pending" | "verification" 
 }

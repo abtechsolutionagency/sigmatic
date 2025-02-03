@@ -1,4 +1,4 @@
-import { Alert, AlertDescription, AlertTitle } from "@/app/components/ui/alert"
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import { CheckCircleIcon } from "lucide-react"
 
 interface FormData {

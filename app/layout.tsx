@@ -1,5 +1,5 @@
 import type React from "react"
-import { ToastProvider } from "@/app/components/ui/toast"
+import { ToastProvider } from "@/components/ui/toast"
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
