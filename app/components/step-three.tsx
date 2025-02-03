@@ -1,10 +1,10 @@
 "use client"
 
-import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
-import { Label } from "@/components/ui/label"
+import { RadioGroup, RadioGroupItem } from "../components/ui/radio-group"
+import { Label } from "../components/ui/label"
 import { InfoModal } from "./info-modal"
 import { motion } from "framer-motion"
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "../components/ui/tooltip"
 import { LockIcon } from "lucide-react"
 
 interface FormData {

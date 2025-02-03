@@ -1,5 +1,5 @@
-import { ProgressTracker } from "@/components/progress-tracker"
-import { StepCard } from "@/components/step-card"
+import { ProgressTracker } from "../components/progress-tracker"
+import { StepCard } from "../components/step-card"
 
 interface Step {
   id: number
