@@ -111,7 +111,7 @@ export function OnboardingForm() {
           depositProof: undefined,
           selectedRobot: "",
         })
-        setCurrentStep(0)
+        window.location.href = "https://www.sigmatic-trading.com/";
       } else {
         throw new Error(result.message)
       }

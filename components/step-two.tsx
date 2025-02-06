@@ -68,7 +68,7 @@ export function StepTwo({ formData, updateFormData }: StepTwoProps) {
           type="number"
           value={formData.depositAmount}
           onChange={(e) => updateFormData({ depositAmount: Number(e.target.value) })}
-          placeholder="Enter deposit amount"
+          // placeholder="Enter deposit amount"
           min="400"
         />
         <p className="text-sm text-gray-600">Enter the exact amount you deposited into your VT Markets account.</p>
